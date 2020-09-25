@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- font awsome     -->
+    <script src="https://kit.fontawesome.com/52fb6b69b1.js" crossorigin="anonymous"></script>
+
+    <!-- Aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Gugi&family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Sofia&display=swap"
+        rel="stylesheet">
+
+    <!-- slick slider -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <!-- css file -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="text-center">
+                    <a class="navbar-brand mr-auto" href="#"><img src="images/logo-furniture.png" alt=""></a>
+                </div>
+                <div class="nav-icon-out">
+                    <i class="fas fa-search navbar-search-icon"></i>
+                    <i class="fas fa-cart-arrow-down navbar-cart-icon"></i>
+                </div>
+
+                <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Living Room
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Sofa & Couches</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Sectionals</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Accent Chairs</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Coffee & Accent Table</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Bedroom
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Bedroom Sets</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Dressers & Chest</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Night Stand</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dining Room
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Dining Room Sets</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Dining Chairs</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Office Furniture
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Office Desks</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Office Chairs</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Decore</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-icon-in">
+                            <i class="fas fa-search navbar-search-icon"></i>
+                        </li>
+                        <li class="nav-icon-in">
+                            <i class="fas fa-cart-arrow-down navbar-cart-icon"></i>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- main -->
+    <div class="main">
+        <div class="container-fluid p-0 m-0">
+            <div class="slider-one-container">
+                <div class="slider-one">
+                    <div><img src="images/furniture_bg1.jpg" alt=""></div>
+                    <div><img src="images/furniture_bg2.jpg" alt=""></div>
+                    <div><img src="images/furniture_bg3.jpg" alt=""></div>
+                </div>
+                <div class="slider-btn">
+                    <span class="previous-icon"><i class="fas fa-chevron-left"></i></span>
+                    <span class="next-icon"><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- new arrival -->
+    <div class="new-arrival padding-top">
+        <div class="container-fluid">
+            <div class="section-title">
+                <h3>New Arrival</h3>
+            </div>
+            <div class="slider-two-container">
+                <div class="slider-two">
+                    <div class="slider-frame">
+                        <img src="images/new-arrival/01-accent-table.jpg" alt="">
+                        <span>Accent Table</span>
+                    </div>
+                    <div class="slider-frame">
+                        <img src="images/new-arrival/02-coffe-table.jpg" alt="">
+                        <span>Accent Table</span>
+                    </div>
+                    <div class="slider-frame">
+                        <img src="images/new-arrival/03-rock-chair.jpg" alt="">
+                        <span>Accent Table</span>
+                    </div>
+                    <div class="slider-frame">
+                        <img src="images/new-arrival/04-sideboard.jpg" alt="">
+                        <span>Accent Table</span>
+                    </div>
+                    <div class="slider-frame">
+                        <img src="images/new-arrival/05-sofa.jpg" alt="">
+                        <span>Accent Table</span>
+                    </div>
+                    <div class="slider-frame">
+                        <img src="images/new-arrival/06-chair.jpg" alt="">
+                        <span>Accent Table</span>
+                    </div>
+                    <div class="slider-frame">
+                        <img src="images/new-arrival/07-table-lamp.jpg" alt="">
+                        <span>Accent Table</span>
+                    </div>
+                    <div class="slider-frame">
+                        <img src="images/new-arrival/08-drawerchest.jpg" alt="">
+                        <span>Accent Table</span>
+                    </div>
+                </div>
+                <div class="slider-btn">
+                    <span class="previous-icon"><i class="fas fa-chevron-left"></i></span>
+                    <span class="next-icon"><i class="fas fa-chevron-right"></i></span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ways to shop -->
+
+    <div class="shop-style padding-top">
+        <div class="container-fluid">
+            <div class="section-title">
+                <h3>Ways To Shop</h3>
+            </div>
+            <div class="section-title-slider">
+                <h4 class="shop-by-style-title underline">Shop By Style</h4>
+                <h4 class="shop-by-categories-title ">Shop By Categories</h4>
+            </div>
+
+            <div class="slider-three-container">
+                <div class="slider-three">
+                    <div class="shop-by-style">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="shop-by-style-inner">
+                                    <img src="images/style/style-01-modern.webp" alt="">
+                                    <p>Mid-Century Modern</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="shop-by-style-inner">
+                                    <img src="images/style/style-02-coastal.webp" alt="">
+                                    <p>Coastal</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="shop-by-style-inner">
+                                    <img src="images/style/style-03-american.webp" alt="">
+                                    <p>American</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 col-md-3">
+                                <div class="shop-by-style-inner">
+                                    <img src="images/style/style-04-glam.webp" alt="">
+                                    <p>Glam</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="shop-by-style-inner">
+                                    <img src="images/style/style-05-industrial.webp" alt="">
+                                    <p>Industrial</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="shop-by-style-inner">
+                                    <img src="images/style/style-06-rustic.webp" alt="">
+                                    <p>Rustic</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="shop-by-style-inner">
+                                    <img src="images/style/style-07-shabbyChic.webp" alt="">
+                                    <p>Shappy</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="shop-by-style-inner">
+                                    <img src="images/style/style-08-modern.webp" alt="">
+                                    <p>Modern Italian</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="shop-by-style-inner">
+                                    <img src="images/style/style-09-Traditional.webp" alt="">
+                                    <p>Traditional</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="shop-by-categories">
+                        <div class="row">
+                            <div class="col-6 col-md-3">
+                                <div class="shop-by-categories-inner">
+                                    <img src="images/style/cat-01-sofa-couches.jpg" alt="">
+                                    <p>Sofa & Couches</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="shop-by-categories-inner">
+                                    <img src="images/style/cat-02-sectionals.jpg" alt="">
+                                    <p>Sectionals</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="shop-by-categories-inner">
+                                    <img src="images/style/cat-03-accent-chair.jpg" alt="">
+                                    <p>Accent Chairs</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="shop-by-categories-inner">
+                                    <img src="images/style/cat-04-coffee-accent-tables.jpg" alt="">
+                                    <p>Accent Tables</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 col-md-3">
+                                <div class="shop-by-categories-inner">
+                                    <img src="images/style/cat-05-bedroom-sets.jpg" alt="">
+                                    <p>Bedroom Sets</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="shop-by-categories-inner">
+                                    <img src="images/style/cat-06-dresser-chest.jpg" alt="">
+                                    <p>Dresser & Chest</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="shop-by-categories-inner">
+                                    <img src="images/style/cat-07-night-stand.jpg" alt="">
+                                    <p>Night Stand</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="shop-by-categories-inner">
+                                    <img src="images/style/cat-08-dining-room-set.jpg" alt="">
+                                    <p>Dining Room</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 col-md-3">
+                                <div class="shop-by-categories-inner">
+                                    <img src="images/style/cat-09-dining-room-chairs.jpg" alt="">
+                                    <p>Dining Chiars</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="shop-by-categories-inner">
+                                    <img src="images/style/cat-10-office-desks.jpg" alt="">
+                                    <p>Desk Office</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="shop-by-categories-inner">
+                                    <img src="images/style/cat-11-office-chair.jpg" alt="">
+                                    <p>Office Chairs</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="shop-by-categories-inner">
+                                    <img src="images/style/cat-12-Decore.jpg" alt="">
+                                    <p>Decore</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- decorating idea -->
+
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Download our App</h5>
+                    <p>Download app for Android and ios mobile phone</p>
+                    <img class="footer-mobile" src="images/ios.jpg" alt="">
+                    <img class="footer-mobile" src="images/android.jpg" alt="">
+                </div>
+                <div class="col-md-2">
+                    <!-- <h5>Useful links</h5>
+                    <ul> -->
+                    <li><a href="contact.html">Sofa & Coaches</a></li>
+                    <li><a href="contact.html">Sectionals</a></li>
+                    <li><a href="index.html">Accent Chairs</a></li>
+                    <li><a href="about.html">Coffee & Accent Table</a></li>
+                    <li><a href="account.html">Bedroom Sets</a></li>
+                    <li><a href="contact.html">Dressers & Chest</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul>
+                        <li><a href="contact.html">Night Stand</a></li>
+                        <li><a href="contact.html">Dining Room Sets</a></li>
+                        <li><a href="index.html">Dining Chairs</a></li>
+                        <li><a href="about.html">Office Desks</a></li>
+                        <li><a href="account.html">Office Chairs</a></li>
+                        <li><a href="contact.html">Decore</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-1">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="account.html">Account</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-logo">
+                        <img src="images/logo-furniture.png" alt="">
+                    </div>
+                    <div class="footer-social">
+                        <span><a href="https://twitter.com/BIS_Qatar/"><i class="fab fa-twitter"></i></a></span>
+                        <span><a href="https://www.facebook.com/brightinformationsystems/"><i
+                                    class="fab fa-facebook-f"></i></a></span>
+                        <span><a href="https://www.instagram.com/bright_information_systems_qa/"><i
+                                    class="fab fa-instagram"></i></a></span>
+                        <span><a href="https://www.linkedin.com/company/11470356/"><i
+                                    class="fab fa-linkedin-in"></i></a></span>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <!-- Aos animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- slick slider -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- javascript -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
